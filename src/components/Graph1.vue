@@ -1,6 +1,6 @@
 <template>
   <Chart
-    :size="{ width: 500, height: 500 }"
+    :size="{ width: 500, height: 200 }"
     :data="data"
     :margin="margin"
     :direction="direction">
