@@ -1,7 +1,11 @@
+<script setup lang="ts">
+import TheWelcome2 from '../components/TheWelcome2.vue'
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main>
+    <TheWelcome2 />
+  </main>
 </template>
 
 <style>
