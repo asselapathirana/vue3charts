@@ -8,13 +8,17 @@
       <Grid strokeDasharray="2,2" />
       <Line :dataKeys="['name', 'pl']" />
     </template>
+    <template #widgets>
+      <Tooltip
 
+      />
+    </template>
   </Chart>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { Chart, Grid, Line } from 'vue3-charts'
+import { Chart, Tooltip, Grid, Line,  } from 'vue3-charts'
 import { plByMonth } from '@/data'
 const data = ref(plByMonth)
 const direction = ref('horizontal')
